@@ -1,0 +1,68 @@
+{
+  "customer_id": "glucometer-vendor",
+  "run_date": "2026-10-04",
+  "run_risk_tier": "high",
+  "count": 5,
+  "top_transactions": [
+    {
+      "case_id": "AML-1006-0f19",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "CUST-HOSP-1006",
+      "counterparty": "Asklepios Klinik Hamburg",
+      "amount": 25769.46,
+      "risk_score": 5.1,
+      "risk_tier": "high",
+      "reason": "Rolling 3-month average drifted 51.0% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1001-e20e",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "CUST-HOSP-1001",
+      "counterparty": "Charite - Universitaetsmedizin Berlin",
+      "amount": 25392.3,
+      "risk_score": 4.84,
+      "risk_tier": "high",
+      "reason": "Rolling 3-month average drifted 48.4% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1006-47f9",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "E2E-DE-60299",
+      "customer_reference_id": "CUST-HOSP-1006",
+      "counterparty": "Asklepios Klinik Hamburg",
+      "amount": 78000.0,
+      "risk_score": 3.03,
+      "risk_tier": "high",
+      "reason": "Transaction was 3.03x this counterparty's normal 3-month average (EUR 25769.46).",
+      "suggested_action": "Escalate to AML review; confirm source of funds before release."
+    },
+    {
+      "case_id": "AML-1002-d186",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "CUST-HOSP-1002",
+      "counterparty": "Universitaetsklinikum Heidelberg",
+      "amount": 6953.35,
+      "risk_score": 2.77,
+      "risk_tier": "medium",
+      "reason": "Rolling 3-month average drifted 27.7% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1007-840f",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "E2E-DE-41266",
+      "customer_reference_id": "CUST-HOSP-1007",
+      "counterparty": "Helios Klinikum Berlin-Buch",
+      "amount": 43858.55,
+      "risk_score": 2.55,
+      "risk_tier": "high",
+      "reason": "Transaction was 2.55x this counterparty's normal 3-month average (EUR 17226.41).",
+      "suggested_action": "Escalate to AML review; confirm source of funds before release."
+    }
+  ]
+}

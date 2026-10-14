@@ -1,0 +1,53 @@
+{
+  "customer_id": "gym-chain",
+  "run_date": "2026-09-28",
+  "kind": "friday_missed",
+  "email_count": 1,
+  "record": {
+    "customer_id": "gym-chain",
+    "owner_name": "Mark",
+    "to_address_masked": "a*******e@neversaydie.co.in",
+    "counterparty_count": 7,
+    "total_amount": 416.24,
+    "breakdown_top": [
+      {
+        "name": "MEM-001140",
+        "amount": 31.49,
+        "days_overdue": 45
+      },
+      {
+        "name": "MEM-001144",
+        "amount": 83.99,
+        "days_overdue": 45
+      },
+      {
+        "name": "MEM-001800",
+        "amount": 83.99,
+        "days_overdue": 45
+      },
+      {
+        "name": "MEM-001005",
+        "amount": 57.74,
+        "days_overdue": 32
+      },
+      {
+        "name": "MEM-001001",
+        "amount": 51.24,
+        "days_overdue": 31
+      },
+      {
+        "name": "MEM-001002",
+        "amount": 50.05,
+        "days_overdue": 31
+      },
+      {
+        "name": "MEM-001003",
+        "amount": 57.74,
+        "days_overdue": 31
+      }
+    ],
+    "trace": "trc-rep-gym-chain-weekly-missed-2026-09-28",
+    "status": "sent",
+    "provider_response": null
+  }
+}

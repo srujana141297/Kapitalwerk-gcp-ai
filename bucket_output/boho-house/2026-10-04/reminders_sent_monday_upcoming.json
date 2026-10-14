@@ -1,0 +1,58 @@
+{
+  "customer_id": "boho-house",
+  "run_date": "2026-10-04",
+  "kind": "monday_upcoming",
+  "email_count": 1,
+  "record": {
+    "customer_id": "boho-house",
+    "owner_name": "Arya",
+    "to_address_masked": "a*******e@neversaydie.co.in",
+    "counterparty_count": 2087,
+    "total_amount": 842625.79,
+    "breakdown_top": [
+      {
+        "name": "BH-MEM-000001",
+        "amount": 736.67
+      },
+      {
+        "name": "BH-MEM-000002",
+        "amount": 691.78
+      },
+      {
+        "name": "BH-MEM-000019",
+        "amount": 676.0
+      },
+      {
+        "name": "BH-MEM-000021",
+        "amount": 676.0
+      },
+      {
+        "name": "BH-MEM-000027",
+        "amount": 676.0
+      },
+      {
+        "name": "BH-MEM-000039",
+        "amount": 676.0
+      },
+      {
+        "name": "BH-MEM-000043",
+        "amount": 676.0
+      },
+      {
+        "name": "BH-MEM-000053",
+        "amount": 676.0
+      },
+      {
+        "name": "BH-MEM-000054",
+        "amount": 676.0
+      },
+      {
+        "name": "BH-MEM-000059",
+        "amount": 676.0
+      }
+    ],
+    "trace": "trc-rep-boho-house-weekly-upcoming-2026-10-04",
+    "status": "sent",
+    "provider_response": null
+  }
+}

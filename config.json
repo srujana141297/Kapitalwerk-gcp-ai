@@ -1,0 +1,17 @@
+{
+  "project_id": "hack-team-chasing-alpha",
+  "BUCKET_BACKEND": "gcs",
+  "GCS_BUCKET_NAME": "kapitalwerk-nxt-gcs",
+  "CSV_PATH": "gs://kapitalwerk-nxt-gcs/hospital_vendor_2yr_history.csv",
+  "gcs_bucket": "kapitalwerk-nxt-gcs",
+  "llm_provider": "vertex",
+  "governance_store": "firestore",
+
+  "_llm_provider_options": {
+    "description": "Set LLM_PROVIDER env var to override this field. Options:",
+    "ollama": "Local dev – requires Ollama running on localhost:11434 (set ENV=dev to auto-select)",
+    "gemini": "Direct Gemini API – requires GEMINI_API_KEY env var",
+    "vertex": "Vertex AI via ADC – production default, no API key needed on GCP",
+    "mock": "Deterministic mock – for tests and offline demos"
+  }
+}

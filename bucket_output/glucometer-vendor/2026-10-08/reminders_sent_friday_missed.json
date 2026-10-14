@@ -1,0 +1,13 @@
+{
+  "customer_id": "glucometer-vendor",
+  "run_date": "2026-10-08",
+  "kind": "friday_missed",
+  "email_count": 0,
+  "record": {
+    "customer_id": "glucometer-vendor",
+    "status": "nothing_to_report",
+    "counterparty_count": 0,
+    "total_amount": 0.0,
+    "to_address_masked": null
+  }
+}

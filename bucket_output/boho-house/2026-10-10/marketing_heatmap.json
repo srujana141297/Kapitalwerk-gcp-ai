@@ -1,0 +1,59 @@
+{
+  "customer_id": "boho-house",
+  "run_date": "2026-10-10",
+  "postal_code_count": 5,
+  "llm_available": true,
+  "pii_blocked": false,
+  "heatmap": [
+    {
+      "postal_code": "10115",
+      "city": "Berlin",
+      "lat": 52.52,
+      "lon": 13.405,
+      "transaction_count": 12522,
+      "total_value": 4912506.8,
+      "label": "opportunity",
+      "narrative": "This key location in Berlin is a high-value hub, worth deepening relationships to capitalize on growth opportunities."
+    },
+    {
+      "postal_code": "80331",
+      "city": "Munich",
+      "lat": 48.1351,
+      "lon": 11.582,
+      "transaction_count": 9442,
+      "total_value": 3653270.8,
+      "label": "stable",
+      "narrative": "This established Munich client is stable and steady, with no immediate need for intervention or relationship-building efforts."
+    },
+    {
+      "postal_code": "20095",
+      "city": "Hamburg",
+      "lat": 53.5511,
+      "lon": 9.9937,
+      "transaction_count": 6139,
+      "total_value": 2509940.0,
+      "label": "watch",
+      "narrative": "Monitor this Hamburg location closely, as its relatively low activity and value suggest potential issues or disengagement."
+    },
+    {
+      "postal_code": "50667",
+      "city": "Cologne",
+      "lat": 50.9375,
+      "lon": 6.9603,
+      "transaction_count": 3211,
+      "total_value": 1283333.6,
+      "label": "watch",
+      "narrative": "Keep a close eye on this Cologne client, as its low transaction volume and value indicate a need for ongoing monitoring and potential relationship-building efforts."
+    },
+    {
+      "postal_code": "60311",
+      "city": "Frankfurt",
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "transaction_count": 1606,
+      "total_value": 679588.0,
+      "label": "opportunity",
+      "narrative": "Frankfurt's 60311 postal code is a high-value opportunity, worth engaging with to explore new business prospects and deepen relationships."
+    }
+  ]
+}

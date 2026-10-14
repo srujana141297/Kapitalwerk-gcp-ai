@@ -1,0 +1,209 @@
+{
+  "customer_id": "glucometer-vendor",
+  "run_date": "2026-09-28",
+  "postal_code_count": 20,
+  "llm_available": false,
+  "pii_blocked": true,
+  "heatmap": [
+    {
+      "postal_code": "10115",
+      "city": "Berlin",
+      "lat": 52.52,
+      "lon": 13.405,
+      "transaction_count": 295,
+      "total_value": 4600498.4,
+      "label": "opportunity",
+      "narrative": "295 transactions worth EUR 4,600,498.40 in Berlin."
+    },
+    {
+      "postal_code": "20095",
+      "city": "Hamburg",
+      "lat": 53.5511,
+      "lon": 9.9937,
+      "transaction_count": 205,
+      "total_value": 2214596.09,
+      "label": "opportunity",
+      "narrative": "205 transactions worth EUR 2,214,596.09 in Hamburg."
+    },
+    {
+      "postal_code": "70173",
+      "city": "Stuttgart",
+      "lat": 48.7758,
+      "lon": 9.1829,
+      "transaction_count": 143,
+      "total_value": 1306416.21,
+      "label": "opportunity",
+      "narrative": "143 transactions worth EUR 1,306,416.21 in Stuttgart."
+    },
+    {
+      "postal_code": "80331",
+      "city": "Munich",
+      "lat": 48.1351,
+      "lon": 11.582,
+      "transaction_count": 104,
+      "total_value": 839325.1,
+      "label": "opportunity",
+      "narrative": "104 transactions worth EUR 839,325.10 in Munich."
+    },
+    {
+      "postal_code": "60311",
+      "city": "Frankfurt",
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "transaction_count": 76,
+      "total_value": 778899.98,
+      "label": "opportunity",
+      "narrative": "76 transactions worth EUR 778,899.98 in Frankfurt."
+    },
+    {
+      "postal_code": "63065",
+      "city": "Offenbach",
+      "lat": 50.0955,
+      "lon": 8.7761,
+      "transaction_count": 63,
+      "total_value": 691489.04,
+      "label": "opportunity",
+      "narrative": "63 transactions worth EUR 691,489.04 in Offenbach."
+    },
+    {
+      "postal_code": "50667",
+      "city": "Cologne",
+      "lat": 50.9375,
+      "lon": 6.9603,
+      "transaction_count": 50,
+      "total_value": 570889.02,
+      "label": "stable",
+      "narrative": "50 transactions worth EUR 570,889.02 in Cologne."
+    },
+    {
+      "postal_code": "90402",
+      "city": "Nuernberg",
+      "lat": 49.4521,
+      "lon": 11.0767,
+      "transaction_count": 75,
+      "total_value": 558176.42,
+      "label": "stable",
+      "narrative": "75 transactions worth EUR 558,176.42 in Nuernberg."
+    },
+    {
+      "postal_code": "69117",
+      "city": "Heidelberg",
+      "lat": 49.3988,
+      "lon": 8.6724,
+      "transaction_count": 99,
+      "total_value": 514071.91,
+      "label": "stable",
+      "narrative": "99 transactions worth EUR 514,071.91 in Heidelberg."
+    },
+    {
+      "postal_code": "86150",
+      "city": "Augsburg",
+      "lat": 48.3705,
+      "lon": 10.8978,
+      "transaction_count": 34,
+      "total_value": 500138.37,
+      "label": "stable",
+      "narrative": "34 transactions worth EUR 500,138.37 in Augsburg."
+    },
+    {
+      "postal_code": "01067",
+      "city": "Dresden",
+      "lat": 51.0504,
+      "lon": 13.7373,
+      "transaction_count": 37,
+      "total_value": 426742.11,
+      "label": "stable",
+      "narrative": "37 transactions worth EUR 426,742.11 in Dresden."
+    },
+    {
+      "postal_code": "44787",
+      "city": "Bochum",
+      "lat": 51.4818,
+      "lon": 7.2162,
+      "transaction_count": 59,
+      "total_value": 408957.06,
+      "label": "stable",
+      "narrative": "59 transactions worth EUR 408,957.06 in Bochum."
+    },
+    {
+      "postal_code": "53111",
+      "city": "Bonn",
+      "lat": 50.7374,
+      "lon": 7.0982,
+      "transaction_count": 69,
+      "total_value": 364945.26,
+      "label": "stable",
+      "narrative": "69 transactions worth EUR 364,945.26 in Bonn."
+    },
+    {
+      "postal_code": "68159",
+      "city": "Mannheim",
+      "lat": 49.4875,
+      "lon": 8.466,
+      "transaction_count": 27,
+      "total_value": 347967.3,
+      "label": "stable",
+      "narrative": "27 transactions worth EUR 347,967.30 in Mannheim."
+    },
+    {
+      "postal_code": "44135",
+      "city": "Dortmund",
+      "lat": 51.5136,
+      "lon": 7.4653,
+      "transaction_count": 45,
+      "total_value": 331317.82,
+      "label": "stable",
+      "narrative": "45 transactions worth EUR 331,317.82 in Dortmund."
+    },
+    {
+      "postal_code": "71634",
+      "city": "Ludwigsburg",
+      "lat": 48.8974,
+      "lon": 9.1916,
+      "transaction_count": 62,
+      "total_value": 303245.27,
+      "label": "stable",
+      "narrative": "62 transactions worth EUR 303,245.27 in Ludwigsburg."
+    },
+    {
+      "postal_code": "45127",
+      "city": "Essen",
+      "lat": 51.4556,
+      "lon": 7.0116,
+      "transaction_count": 21,
+      "total_value": 291071.73,
+      "label": "stable",
+      "narrative": "21 transactions worth EUR 291,071.73 in Essen."
+    },
+    {
+      "postal_code": "48143",
+      "city": "Muenster",
+      "lat": 51.9607,
+      "lon": 7.6261,
+      "transaction_count": 32,
+      "total_value": 151527.94,
+      "label": "stable",
+      "narrative": "32 transactions worth EUR 151,527.94 in Muenster."
+    },
+    {
+      "postal_code": "72070",
+      "city": "Tuebingen",
+      "lat": 48.5216,
+      "lon": 9.0576,
+      "transaction_count": 14,
+      "total_value": 109381.75,
+      "label": "stable",
+      "narrative": "14 transactions worth EUR 109,381.75 in Tuebingen."
+    },
+    {
+      "postal_code": "09111",
+      "city": "Chemnitz",
+      "lat": 50.8278,
+      "lon": 12.9214,
+      "transaction_count": 14,
+      "total_value": 108778.69,
+      "label": "stable",
+      "narrative": "14 transactions worth EUR 108,778.69 in Chemnitz."
+    }
+  ]
+}

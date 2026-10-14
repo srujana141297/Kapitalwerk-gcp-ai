@@ -1,0 +1,5428 @@
+{
+  "customer_id": "boho-house",
+  "run_date": "2026-09-28",
+  "as_of": "2026-09-28",
+  "missing_payments": [
+    {
+      "customer_reference_id": "BH-MEM-000001",
+      "type": "missing_payment",
+      "last_transaction_date": "2026-07-23",
+      "typical_cadence_days": 31,
+      "expected_by": "2026-08-23",
+      "grace_period_ends": "2026-08-29",
+      "days_overdue": 30
+    },
+    {
+      "customer_reference_id": "BH-MEM-000002",
+      "type": "missing_payment",
+      "last_transaction_date": "2026-07-23",
+      "typical_cadence_days": 30,
+      "expected_by": "2026-08-22",
+      "grace_period_ends": "2026-08-28",
+      "days_overdue": 31
+    },
+    {
+      "customer_reference_id": "BH-MEM-000005",
+      "type": "missing_payment",
+      "last_transaction_date": "2026-07-22",
+      "typical_cadence_days": 30,
+      "expected_by": "2026-08-21",
+      "grace_period_ends": "2026-08-27",
+      "days_overdue": 32
+    },
+    {
+      "customer_reference_id": "BH-MEM-000007",
+      "type": "missing_payment",
+      "last_transaction_date": "2026-07-23",
+      "typical_cadence_days": 30,
+      "expected_by": "2026-08-22",
+      "grace_period_ends": "2026-08-28",
+      "days_overdue": 31
+    },
+    {
+      "customer_reference_id": "BH-MEM-001404",
+      "type": "missing_payment",
+      "last_transaction_date": "2026-07-08",
+      "typical_cadence_days": 31,
+      "expected_by": "2026-08-08",
+      "grace_period_ends": "2026-08-14",
+      "days_overdue": 45
+    },
+    {
+      "customer_reference_id": "BH-MEM-001613",
+      "type": "missing_payment",
+      "last_transaction_date": "2026-07-08",
+      "typical_cadence_days": 31,
+      "expected_by": "2026-08-08",
+      "grace_period_ends": "2026-08-14",
+      "days_overdue": 45
+    }
+  ],
+  "high_value_transactions": [
+    {
+      "customer_reference_id": "BH-MEM-000001",
+      "type": "high_value_transaction",
+      "reference_id": "SEPA-DD-BH000001",
+      "transaction_date": "2026-07-23",
+      "amount": 1650.0,
+      "baseline_3m_avg": 736.67,
+      "multiplier": 2.24
+    },
+    {
+      "customer_reference_id": "BH-MEM-000002",
+      "type": "high_value_transaction",
+      "reference_id": "SEPA-DD-BH000002",
+      "transaction_date": "2026-07-23",
+      "amount": 2500.0,
+      "baseline_3m_avg": 691.78,
+      "multiplier": 3.61
+    }
+  ],
+  "deviations": [
+    {
+      "customer_reference_id": "BH-MEM-000001",
+      "type": "deviation",
+      "rolling_3m_avg": 736.67,
+      "rolling_12m_avg": 394.17,
+      "drift_pct": 86.9,
+      "direction": "increase"
+    },
+    {
+      "customer_reference_id": "BH-MEM-000002",
+      "type": "deviation",
+      "rolling_3m_avg": 691.78,
+      "rolling_12m_avg": 523.94,
+      "drift_pct": 32.0,
+      "direction": "increase"
+    }
+  ],
+  "explicit_failures": [
+    {
+      "customer_reference_id": "BH-MEM-000058",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000058",
+      "transaction_date": "2024-08-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000061",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000061",
+      "transaction_date": "2024-08-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000123",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000123",
+      "transaction_date": "2024-08-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000134",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000134",
+      "transaction_date": "2024-08-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000268",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000268",
+      "transaction_date": "2024-08-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000376",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000376",
+      "transaction_date": "2024-08-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000389",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000389",
+      "transaction_date": "2024-08-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000504",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000504",
+      "transaction_date": "2024-08-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000517",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000517",
+      "transaction_date": "2024-08-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000558",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000558",
+      "transaction_date": "2024-08-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000559",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000559",
+      "transaction_date": "2024-08-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000572",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000572",
+      "transaction_date": "2024-08-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000634",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000634",
+      "transaction_date": "2024-08-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000558",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000558",
+      "transaction_date": "2024-08-04",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000061",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000061",
+      "transaction_date": "2024-08-05",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000504",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000504",
+      "transaction_date": "2024-08-05",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000051",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000051",
+      "transaction_date": "2024-09-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000202",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000202",
+      "transaction_date": "2024-09-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000338",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000338",
+      "transaction_date": "2024-09-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000616",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000616",
+      "transaction_date": "2024-09-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000749",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000749",
+      "transaction_date": "2024-09-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000405",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000405",
+      "transaction_date": "2024-10-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000415",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000415",
+      "transaction_date": "2024-10-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000540",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000540",
+      "transaction_date": "2024-10-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000115",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000115",
+      "transaction_date": "2024-10-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000194",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000194",
+      "transaction_date": "2024-10-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000239",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000239",
+      "transaction_date": "2024-10-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000240",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000240",
+      "transaction_date": "2024-10-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000276",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000276",
+      "transaction_date": "2024-10-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000344",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000344",
+      "transaction_date": "2024-10-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000353",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000353",
+      "transaction_date": "2024-10-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000365",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000365",
+      "transaction_date": "2024-10-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000771",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000771",
+      "transaction_date": "2024-10-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000415",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000415",
+      "transaction_date": "2024-10-04",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000073",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000073",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000186",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000186",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000187",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000187",
+      "transaction_date": "2024-11-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000300",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000300",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000346",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000648",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000648",
+      "transaction_date": "2024-11-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000719",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000719",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000418",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000418",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000434",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000434",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000490",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000490",
+      "transaction_date": "2024-11-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000575",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000575",
+      "transaction_date": "2024-11-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000590",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000590",
+      "transaction_date": "2024-11-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000617",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000617",
+      "transaction_date": "2024-11-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000734",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000734",
+      "transaction_date": "2024-11-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000752",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000752",
+      "transaction_date": "2024-11-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000186",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000186",
+      "transaction_date": "2024-11-05",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000734",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000734",
+      "transaction_date": "2024-11-05",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000073",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000073",
+      "transaction_date": "2024-11-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000447",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000447",
+      "transaction_date": "2024-12-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000457",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000457",
+      "transaction_date": "2024-12-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000476",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000476",
+      "transaction_date": "2024-12-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000531",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000531",
+      "transaction_date": "2024-12-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000534",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000534",
+      "transaction_date": "2024-12-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000573",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000573",
+      "transaction_date": "2024-12-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000691",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000691",
+      "transaction_date": "2024-12-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000695",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000695",
+      "transaction_date": "2024-12-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000045",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000045",
+      "transaction_date": "2024-12-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000058",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000058",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000181",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000181",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000211",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000211",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000216",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000216",
+      "transaction_date": "2024-12-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000313",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000313",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000335",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000335",
+      "transaction_date": "2024-12-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000345",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000345",
+      "transaction_date": "2024-12-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000375",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000375",
+      "transaction_date": "2024-12-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000714",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000714",
+      "transaction_date": "2024-12-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000764",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000764",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000875",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000875",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000876",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000876",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000909",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000909",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000944",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000944",
+      "transaction_date": "2024-12-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000957",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000957",
+      "transaction_date": "2024-12-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000476",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000476",
+      "transaction_date": "2024-12-04",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000045",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000045",
+      "transaction_date": "2024-12-08",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000029",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000029",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000063",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000063",
+      "transaction_date": "2025-01-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000071",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000071",
+      "transaction_date": "2025-01-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000096",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000096",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000184",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000184",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000236",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000236",
+      "transaction_date": "2025-01-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000260",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000260",
+      "transaction_date": "2025-01-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000269",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000269",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000279",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000279",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000287",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000287",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000327",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000327",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000374",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000374",
+      "transaction_date": "2025-01-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000725",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000725",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000726",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000726",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000839",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000839",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000917",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000917",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000936",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000936",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000957",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000957",
+      "transaction_date": "2025-01-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000966",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000966",
+      "transaction_date": "2025-01-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000971",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000971",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001019",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001019",
+      "transaction_date": "2025-01-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000479",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000479",
+      "transaction_date": "2025-01-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000520",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000520",
+      "transaction_date": "2025-01-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000534",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000534",
+      "transaction_date": "2025-01-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000556",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000556",
+      "transaction_date": "2025-01-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001019",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001019",
+      "transaction_date": "2025-01-05",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000534",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000534",
+      "transaction_date": "2025-01-06",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000520",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000520",
+      "transaction_date": "2025-01-08",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000412",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000412",
+      "transaction_date": "2025-02-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000455",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000455",
+      "transaction_date": "2025-02-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000467",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000467",
+      "transaction_date": "2025-02-02",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000479",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000479",
+      "transaction_date": "2025-02-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000547",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000547",
+      "transaction_date": "2025-02-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000590",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000590",
+      "transaction_date": "2025-02-02",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000781",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000781",
+      "transaction_date": "2025-02-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000849",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000849",
+      "transaction_date": "2025-02-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000863",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000863",
+      "transaction_date": "2025-02-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000031",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000031",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000047",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000047",
+      "transaction_date": "2025-02-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000105",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000105",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000140",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000140",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000164",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000164",
+      "transaction_date": "2025-02-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000191",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000191",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000199",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000199",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000313",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000313",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000322",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000322",
+      "transaction_date": "2025-02-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000346",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000642",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000642",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000652",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000652",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000716",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000716",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000799",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000799",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000879",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000879",
+      "transaction_date": "2025-02-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000918",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000918",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000938",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000938",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000995",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000995",
+      "transaction_date": "2025-02-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001001",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001001",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001007",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001007",
+      "transaction_date": "2025-02-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001064",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001064",
+      "transaction_date": "2025-02-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000716",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000716",
+      "transaction_date": "2025-02-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001001",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001001",
+      "transaction_date": "2025-02-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000105",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000105",
+      "transaction_date": "2025-02-07",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001007",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001007",
+      "transaction_date": "2025-02-07",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000322",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000322",
+      "transaction_date": "2025-02-08",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000890",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000890",
+      "transaction_date": "2025-03-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000999",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000999",
+      "transaction_date": "2025-03-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001056",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001056",
+      "transaction_date": "2025-03-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000064",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000064",
+      "transaction_date": "2025-03-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000147",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000147",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000149",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000149",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000323",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000323",
+      "transaction_date": "2025-03-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000378",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000378",
+      "transaction_date": "2025-03-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000719",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000719",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001133",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001133",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000463",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000463",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000505",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000505",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000546",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000546",
+      "transaction_date": "2025-03-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000675",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000675",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000677",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000677",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000788",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000788",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000803",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000803",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000807",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000807",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000842",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000842",
+      "transaction_date": "2025-03-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001178",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001178",
+      "transaction_date": "2025-03-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000378",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000378",
+      "transaction_date": "2025-03-07",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000842",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000842",
+      "transaction_date": "2025-03-08",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000409",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000409",
+      "transaction_date": "2025-04-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000488",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000488",
+      "transaction_date": "2025-04-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000502",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000502",
+      "transaction_date": "2025-04-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000549",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000549",
+      "transaction_date": "2025-04-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000637",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000637",
+      "transaction_date": "2025-04-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000736",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000736",
+      "transaction_date": "2025-04-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000747",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000747",
+      "transaction_date": "2025-04-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000789",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000789",
+      "transaction_date": "2025-04-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001171",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001171",
+      "transaction_date": "2025-04-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000115",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000115",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000199",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000199",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000264",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000264",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000323",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000323",
+      "transaction_date": "2025-04-02",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000643",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000643",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000723",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000723",
+      "transaction_date": "2025-04-02",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000765",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000765",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001035",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001035",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001224",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001224",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000891",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000891",
+      "transaction_date": "2025-04-02",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000979",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000979",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001116",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001116",
+      "transaction_date": "2025-04-02",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001120",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001120",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001254",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001254",
+      "transaction_date": "2025-04-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000502",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000502",
+      "transaction_date": "2025-04-04",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001120",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001120",
+      "transaction_date": "2025-04-05",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000115",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000115",
+      "transaction_date": "2025-04-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000323",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000323",
+      "transaction_date": "2025-04-06",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001224",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001224",
+      "transaction_date": "2025-04-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000979",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000979",
+      "transaction_date": "2025-04-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000723",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000723",
+      "transaction_date": "2025-04-07",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000164",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000164",
+      "transaction_date": "2025-05-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000167",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000167",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000212",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000212",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000246",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000246",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000280",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000280",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000282",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000282",
+      "transaction_date": "2025-05-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000313",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000313",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000664",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000664",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000769",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000769",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000775",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000775",
+      "transaction_date": "2025-05-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001079",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001079",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001080",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001080",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001129",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001129",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001143",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001143",
+      "transaction_date": "2025-05-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001217",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001217",
+      "transaction_date": "2025-05-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000409",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000409",
+      "transaction_date": "2025-05-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000479",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000479",
+      "transaction_date": "2025-05-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000529",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000529",
+      "transaction_date": "2025-05-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000667",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000667",
+      "transaction_date": "2025-05-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000816",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000816",
+      "transaction_date": "2025-05-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000848",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000848",
+      "transaction_date": "2025-05-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001074",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001074",
+      "transaction_date": "2025-05-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001249",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001249",
+      "transaction_date": "2025-05-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001310",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001310",
+      "transaction_date": "2025-05-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001320",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001320",
+      "transaction_date": "2025-05-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000280",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000280",
+      "transaction_date": "2025-05-05",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001079",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001079",
+      "transaction_date": "2025-05-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001310",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001310",
+      "transaction_date": "2025-05-07",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000529",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000529",
+      "transaction_date": "2025-05-08",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000081",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000081",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000316",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000316",
+      "transaction_date": "2025-06-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000346",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000371",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000371",
+      "transaction_date": "2025-06-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000659",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000659",
+      "transaction_date": "2025-06-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000710",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000710",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000716",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000716",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000770",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000770",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001033",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001033",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000962",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000962",
+      "transaction_date": "2025-06-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000994",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000994",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001008",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001008",
+      "transaction_date": "2025-06-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001111",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001111",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001119",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001119",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001341",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001341",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001360",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001360",
+      "transaction_date": "2025-06-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000401",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000401",
+      "transaction_date": "2025-06-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000439",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000439",
+      "transaction_date": "2025-06-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000459",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000459",
+      "transaction_date": "2025-06-02",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000490",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000490",
+      "transaction_date": "2025-06-02",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000525",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000525",
+      "transaction_date": "2025-06-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000750",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000750",
+      "transaction_date": "2025-06-02",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000817",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000817",
+      "transaction_date": "2025-06-02",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001172",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001172",
+      "transaction_date": "2025-06-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001376",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001376",
+      "transaction_date": "2025-06-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001466",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001466",
+      "transaction_date": "2025-06-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001477",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001477",
+      "transaction_date": "2025-06-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000817",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000817",
+      "transaction_date": "2025-06-05",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000716",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000716",
+      "transaction_date": "2025-06-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001172",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001172",
+      "transaction_date": "2025-06-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001008",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001008",
+      "transaction_date": "2025-06-06",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001360",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001360",
+      "transaction_date": "2025-06-06",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000121",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000121",
+      "transaction_date": "2025-07-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000159",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000159",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000214",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000214",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000287",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000287",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000354",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000354",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000725",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000725",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001091",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001091",
+      "transaction_date": "2025-07-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001207",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001207",
+      "transaction_date": "2025-07-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000412",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000412",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000459",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000459",
+      "transaction_date": "2025-07-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000503",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000503",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000536",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000536",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000843",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000843",
+      "transaction_date": "2025-07-01",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001290",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001290",
+      "transaction_date": "2025-07-01",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001335",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001335",
+      "transaction_date": "2025-07-01",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001412",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001412",
+      "transaction_date": "2025-07-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001455",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001455",
+      "transaction_date": "2025-07-02",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001464",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001464",
+      "transaction_date": "2025-07-02",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000870",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000870",
+      "transaction_date": "2025-07-03",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001019",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001019",
+      "transaction_date": "2025-07-03",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001500",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001500",
+      "transaction_date": "2025-07-03",
+      "amount": 450.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000287",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000287",
+      "transaction_date": "2025-07-04",
+      "amount": 280.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000843",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000843",
+      "transaction_date": "2025-07-06",
+      "amount": 650.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000023",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000023",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000054",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000054",
+      "transaction_date": "2025-08-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000063",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000063",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000070",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000070",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000094",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000094",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000178",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000178",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000197",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000197",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000320",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000320",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000334",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000334",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000719",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000719",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000774",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000774",
+      "transaction_date": "2025-08-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001228",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001228",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001286",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001286",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000442",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000442",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000484",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000484",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000490",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000490",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000495",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000495",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000533",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000533",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000553",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000553",
+      "transaction_date": "2025-08-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000620",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000620",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000730",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000730",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000858",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000858",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001098",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001098",
+      "transaction_date": "2025-08-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001178",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001178",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001233",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001233",
+      "transaction_date": "2025-08-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000872",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000872",
+      "transaction_date": "2025-08-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000898",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000898",
+      "transaction_date": "2025-08-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000947",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000947",
+      "transaction_date": "2025-08-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000951",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000951",
+      "transaction_date": "2025-08-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001008",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001008",
+      "transaction_date": "2025-08-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001057",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001057",
+      "transaction_date": "2025-08-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001109",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001109",
+      "transaction_date": "2025-08-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001346",
+      "transaction_date": "2025-08-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000320",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000320",
+      "transaction_date": "2025-08-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000495",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000495",
+      "transaction_date": "2025-08-04",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000533",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000533",
+      "transaction_date": "2025-08-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000620",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000620",
+      "transaction_date": "2025-08-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000054",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000054",
+      "transaction_date": "2025-08-06",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000197",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000197",
+      "transaction_date": "2025-08-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000858",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000858",
+      "transaction_date": "2025-08-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001008",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001008",
+      "transaction_date": "2025-08-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001346",
+      "transaction_date": "2025-08-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000473",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000473",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000568",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000568",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000603",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000603",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000619",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000619",
+      "transaction_date": "2025-09-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000689",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000689",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000734",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000734",
+      "transaction_date": "2025-09-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001094",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001094",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000898",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000898",
+      "transaction_date": "2025-09-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001241",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001241",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001320",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001320",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001351",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001351",
+      "transaction_date": "2025-09-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000156",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000156",
+      "transaction_date": "2025-09-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000181",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000181",
+      "transaction_date": "2025-09-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000187",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000187",
+      "transaction_date": "2025-09-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000231",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000231",
+      "transaction_date": "2025-09-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000242",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000242",
+      "transaction_date": "2025-09-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000298",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000298",
+      "transaction_date": "2025-09-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000305",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000305",
+      "transaction_date": "2025-09-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000337",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000337",
+      "transaction_date": "2025-09-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001262",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001262",
+      "transaction_date": "2025-09-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001267",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001267",
+      "transaction_date": "2025-09-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001409",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001409",
+      "transaction_date": "2025-09-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001444",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001444",
+      "transaction_date": "2025-09-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000231",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000231",
+      "transaction_date": "2025-09-05",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001267",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001267",
+      "transaction_date": "2025-09-05",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000619",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000619",
+      "transaction_date": "2025-09-05",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001094",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001094",
+      "transaction_date": "2025-09-05",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000181",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000181",
+      "transaction_date": "2025-09-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000888",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000888",
+      "transaction_date": "2025-10-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000903",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000903",
+      "transaction_date": "2025-10-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001058",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001058",
+      "transaction_date": "2025-10-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001355",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001355",
+      "transaction_date": "2025-10-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000458",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000458",
+      "transaction_date": "2025-10-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000509",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000509",
+      "transaction_date": "2025-10-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000523",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000523",
+      "transaction_date": "2025-10-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000530",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000530",
+      "transaction_date": "2025-10-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000676",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000676",
+      "transaction_date": "2025-10-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000858",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000858",
+      "transaction_date": "2025-10-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001565",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001565",
+      "transaction_date": "2025-10-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000035",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000035",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000206",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000206",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000248",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000248",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000296",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000296",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000768",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000768",
+      "transaction_date": "2025-10-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000776",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000776",
+      "transaction_date": "2025-10-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000795",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000795",
+      "transaction_date": "2025-10-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000835",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000835",
+      "transaction_date": "2025-10-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001032",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001032",
+      "transaction_date": "2025-10-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001223",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001223",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001230",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001230",
+      "transaction_date": "2025-10-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001269",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001269",
+      "transaction_date": "2025-10-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001407",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001407",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001434",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001434",
+      "transaction_date": "2025-10-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001455",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001455",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001549",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001549",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001586",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001586",
+      "transaction_date": "2025-10-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001611",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001611",
+      "transaction_date": "2025-10-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001611",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001611",
+      "transaction_date": "2025-10-06",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001032",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001032",
+      "transaction_date": "2025-10-07",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000458",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000458",
+      "transaction_date": "2025-10-07",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001407",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001407",
+      "transaction_date": "2025-10-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000768",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000768",
+      "transaction_date": "2025-10-08",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000795",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000795",
+      "transaction_date": "2025-10-08",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000146",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000146",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000156",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000156",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000197",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000197",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000282",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000282",
+      "transaction_date": "2025-11-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000320",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000320",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000346",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000377",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000377",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000378",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000378",
+      "transaction_date": "2025-11-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001212",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001212",
+      "transaction_date": "2025-11-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001288",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001288",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000869",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000869",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000872",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000872",
+      "transaction_date": "2025-11-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000896",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000896",
+      "transaction_date": "2025-11-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000994",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000994",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001244",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001244",
+      "transaction_date": "2025-11-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001306",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001306",
+      "transaction_date": "2025-11-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001695",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001695",
+      "transaction_date": "2025-11-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001707",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001707",
+      "transaction_date": "2025-11-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000408",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000408",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000487",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000487",
+      "transaction_date": "2025-11-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000488",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000488",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000620",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000620",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000640",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000640",
+      "transaction_date": "2025-11-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000686",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000686",
+      "transaction_date": "2025-11-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000692",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000692",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000783",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000783",
+      "transaction_date": "2025-11-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000806",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000806",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000816",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000816",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001620",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001620",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001445",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001445",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001479",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001479",
+      "transaction_date": "2025-11-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001595",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001595",
+      "transaction_date": "2025-11-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000282",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000282",
+      "transaction_date": "2025-11-06",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001620",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001620",
+      "transaction_date": "2025-11-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000872",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000872",
+      "transaction_date": "2025-11-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000346",
+      "transaction_date": "2025-11-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000686",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000686",
+      "transaction_date": "2025-11-07",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000806",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000806",
+      "transaction_date": "2025-11-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001941",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001941",
+      "transaction_date": "2025-12-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000061",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000061",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000118",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000118",
+      "transaction_date": "2025-12-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000208",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000208",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000232",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000232",
+      "transaction_date": "2025-12-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000273",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000273",
+      "transaction_date": "2025-12-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000346",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000367",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000367",
+      "transaction_date": "2025-12-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000368",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000368",
+      "transaction_date": "2025-12-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000643",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000643",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000799",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000799",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001214",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001214",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000866",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000866",
+      "transaction_date": "2025-12-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000916",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000916",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000937",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000937",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000967",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000967",
+      "transaction_date": "2025-12-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001003",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001003",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001254",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001254",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001315",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001315",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001339",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001339",
+      "transaction_date": "2025-12-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001513",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001513",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001549",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001549",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001713",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001713",
+      "transaction_date": "2025-12-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001793",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001793",
+      "transaction_date": "2025-12-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000403",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000403",
+      "transaction_date": "2025-12-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000479",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000479",
+      "transaction_date": "2025-12-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000530",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000530",
+      "transaction_date": "2025-12-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000630",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000630",
+      "transaction_date": "2025-12-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000688",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000688",
+      "transaction_date": "2025-12-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000735",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000735",
+      "transaction_date": "2025-12-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000807",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000807",
+      "transaction_date": "2025-12-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000827",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000827",
+      "transaction_date": "2025-12-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000859",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000859",
+      "transaction_date": "2025-12-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001523",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001523",
+      "transaction_date": "2025-12-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000367",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000367",
+      "transaction_date": "2025-12-05",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000368",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000368",
+      "transaction_date": "2025-12-05",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001793",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001793",
+      "transaction_date": "2025-12-05",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000273",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000273",
+      "transaction_date": "2025-12-06",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000346",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000346",
+      "transaction_date": "2025-12-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000735",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000735",
+      "transaction_date": "2025-12-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000799",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000799",
+      "transaction_date": "2025-12-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000827",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000827",
+      "transaction_date": "2025-12-08",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000859",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000859",
+      "transaction_date": "2025-12-08",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000050",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000050",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000186",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000186",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000208",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000208",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000345",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000345",
+      "transaction_date": "2026-01-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000347",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000347",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000708",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000708",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000720",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000720",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000838",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000838",
+      "transaction_date": "2026-01-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000839",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000839",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001215",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001215",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001280",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001280",
+      "transaction_date": "2026-01-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001283",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001283",
+      "transaction_date": "2026-01-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001369",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001369",
+      "transaction_date": "2026-01-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001418",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001418",
+      "transaction_date": "2026-01-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001470",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001470",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001475",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001475",
+      "transaction_date": "2026-01-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001506",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001506",
+      "transaction_date": "2026-01-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001551",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001551",
+      "transaction_date": "2026-01-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001588",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001588",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001782",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001782",
+      "transaction_date": "2026-01-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001958",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001958",
+      "transaction_date": "2026-01-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001828",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001828",
+      "transaction_date": "2026-01-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001860",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001860",
+      "transaction_date": "2026-01-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001979",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001979",
+      "transaction_date": "2026-01-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000396",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000396",
+      "transaction_date": "2026-01-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000452",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000452",
+      "transaction_date": "2026-01-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000496",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000496",
+      "transaction_date": "2026-01-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000619",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000619",
+      "transaction_date": "2026-01-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000735",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000735",
+      "transaction_date": "2026-01-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000738",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000738",
+      "transaction_date": "2026-01-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000750",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000750",
+      "transaction_date": "2026-01-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001184",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001184",
+      "transaction_date": "2026-01-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000878",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000878",
+      "transaction_date": "2026-01-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000994",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000994",
+      "transaction_date": "2026-01-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001004",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001004",
+      "transaction_date": "2026-01-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001256",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001256",
+      "transaction_date": "2026-01-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001321",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001321",
+      "transaction_date": "2026-01-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001470",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001470",
+      "transaction_date": "2026-01-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000186",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000186",
+      "transaction_date": "2026-01-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001418",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001418",
+      "transaction_date": "2026-01-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001475",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001475",
+      "transaction_date": "2026-01-06",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001828",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001828",
+      "transaction_date": "2026-01-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001979",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001979",
+      "transaction_date": "2026-01-07",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000029",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000029",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000214",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000214",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000242",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000242",
+      "transaction_date": "2026-02-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000297",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000297",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001207",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001207",
+      "transaction_date": "2026-02-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001481",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001481",
+      "transaction_date": "2026-02-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001739",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001739",
+      "transaction_date": "2026-02-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001371",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001371",
+      "transaction_date": "2026-02-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001423",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001423",
+      "transaction_date": "2026-02-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001506",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001506",
+      "transaction_date": "2026-02-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001555",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001555",
+      "transaction_date": "2026-02-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001558",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001558",
+      "transaction_date": "2026-02-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001661",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001661",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001717",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001717",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001794",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001794",
+      "transaction_date": "2026-02-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001963",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001963",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001826",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001826",
+      "transaction_date": "2026-02-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001903",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001903",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001910",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001910",
+      "transaction_date": "2026-02-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001942",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001942",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001978",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001978",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002025",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002025",
+      "transaction_date": "2026-02-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000409",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000409",
+      "transaction_date": "2026-02-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000440",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000440",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000490",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000490",
+      "transaction_date": "2026-02-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000505",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000505",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000592",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000592",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000623",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000623",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000629",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000629",
+      "transaction_date": "2026-02-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000729",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000729",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000860",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000860",
+      "transaction_date": "2026-02-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001620",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001620",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001674",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001674",
+      "transaction_date": "2026-02-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000886",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000886",
+      "transaction_date": "2026-02-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001020",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001020",
+      "transaction_date": "2026-02-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001259",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001259",
+      "transaction_date": "2026-02-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001344",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001344",
+      "transaction_date": "2026-02-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001361",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001361",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001643",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001643",
+      "transaction_date": "2026-02-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000297",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000297",
+      "transaction_date": "2026-02-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001423",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001423",
+      "transaction_date": "2026-02-04",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001910",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001910",
+      "transaction_date": "2026-02-05",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001739",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001739",
+      "transaction_date": "2026-02-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000409",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000409",
+      "transaction_date": "2026-02-06",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000886",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000886",
+      "transaction_date": "2026-02-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001963",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001963",
+      "transaction_date": "2026-02-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000505",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000505",
+      "transaction_date": "2026-02-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000440",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000440",
+      "transaction_date": "2026-02-08",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000214",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000214",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000228",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000228",
+      "transaction_date": "2026-03-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000274",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000274",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000279",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000279",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000309",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000309",
+      "transaction_date": "2026-03-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000360",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000360",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000652",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000652",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000832",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000832",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001032",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001032",
+      "transaction_date": "2026-03-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001130",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001130",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001137",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001137",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001217",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001217",
+      "transaction_date": "2026-03-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001263",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001263",
+      "transaction_date": "2026-03-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001273",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001273",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001950",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001950",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000386",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000386",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000425",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000425",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000439",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000439",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000477",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000477",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000632",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000632",
+      "transaction_date": "2026-03-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000809",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000809",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001098",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001098",
+      "transaction_date": "2026-03-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001376",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001376",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001425",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001425",
+      "transaction_date": "2026-03-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001455",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001455",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001470",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001470",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001778",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001778",
+      "transaction_date": "2026-03-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000998",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000998",
+      "transaction_date": "2026-03-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001001",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001001",
+      "transaction_date": "2026-03-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001015",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001015",
+      "transaction_date": "2026-03-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001122",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001122",
+      "transaction_date": "2026-03-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001193",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001193",
+      "transaction_date": "2026-03-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001535",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001535",
+      "transaction_date": "2026-03-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002034",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002034",
+      "transaction_date": "2026-03-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001826",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001826",
+      "transaction_date": "2026-03-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001855",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001855",
+      "transaction_date": "2026-03-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001885",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001885",
+      "transaction_date": "2026-03-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001937",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001937",
+      "transaction_date": "2026-03-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002015",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002015",
+      "transaction_date": "2026-03-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000309",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000309",
+      "transaction_date": "2026-03-04",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000360",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000360",
+      "transaction_date": "2026-03-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000425",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000425",
+      "transaction_date": "2026-03-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000832",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000832",
+      "transaction_date": "2026-03-05",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000214",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000214",
+      "transaction_date": "2026-03-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001263",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001263",
+      "transaction_date": "2026-03-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001509",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001509",
+      "transaction_date": "2026-04-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001553",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001553",
+      "transaction_date": "2026-04-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001651",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001651",
+      "transaction_date": "2026-04-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001723",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001723",
+      "transaction_date": "2026-04-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001968",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001968",
+      "transaction_date": "2026-04-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002013",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002013",
+      "transaction_date": "2026-04-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000036",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000036",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000199",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000199",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000319",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000319",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000343",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000343",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001026",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001026",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001034",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001034",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001137",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001137",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001262",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001262",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001270",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001270",
+      "transaction_date": "2026-04-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001482",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001482",
+      "transaction_date": "2026-04-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000452",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000452",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000522",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000522",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000542",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000542",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000546",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000546",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000551",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000551",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000558",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000558",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000667",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000667",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000673",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000673",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000786",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000786",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000847",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000847",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000858",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000858",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001335",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001335",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001619",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001619",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000944",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000944",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000964",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000964",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000978",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000978",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001065",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001065",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001813",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001813",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001855",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001855",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001909",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001909",
+      "transaction_date": "2026-04-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002038",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002038",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002065",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002065",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002066",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002066",
+      "transaction_date": "2026-04-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002076",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002076",
+      "transaction_date": "2026-04-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001723",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001723",
+      "transaction_date": "2026-04-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001968",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001968",
+      "transaction_date": "2026-04-04",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000452",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000452",
+      "transaction_date": "2026-04-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000667",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000667",
+      "transaction_date": "2026-04-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000343",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000343",
+      "transaction_date": "2026-04-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000522",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000522",
+      "transaction_date": "2026-04-07",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000542",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000542",
+      "transaction_date": "2026-04-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000858",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000858",
+      "transaction_date": "2026-04-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002076",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002076",
+      "transaction_date": "2026-04-08",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000138",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000138",
+      "transaction_date": "2026-05-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000187",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000187",
+      "transaction_date": "2026-05-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000239",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000239",
+      "transaction_date": "2026-05-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000380",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000380",
+      "transaction_date": "2026-05-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000666",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000666",
+      "transaction_date": "2026-05-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001079",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001079",
+      "transaction_date": "2026-05-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001087",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001087",
+      "transaction_date": "2026-05-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002028",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002028",
+      "transaction_date": "2026-05-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000382",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000382",
+      "transaction_date": "2026-05-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000514",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000514",
+      "transaction_date": "2026-05-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000745",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000745",
+      "transaction_date": "2026-05-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001526",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001526",
+      "transaction_date": "2026-05-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000952",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000952",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001295",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001295",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001575",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001575",
+      "transaction_date": "2026-05-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001362",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001362",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001542",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001542",
+      "transaction_date": "2026-05-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001548",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001548",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001586",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001586",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001589",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001589",
+      "transaction_date": "2026-05-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001609",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001609",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001771",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001771",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001777",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001777",
+      "transaction_date": "2026-05-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001783",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001783",
+      "transaction_date": "2026-05-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001879",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001879",
+      "transaction_date": "2026-05-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001888",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001888",
+      "transaction_date": "2026-05-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002017",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002017",
+      "transaction_date": "2026-05-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002068",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002068",
+      "transaction_date": "2026-05-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000239",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000239",
+      "transaction_date": "2026-05-05",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001295",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001295",
+      "transaction_date": "2026-05-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001369",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001369",
+      "transaction_date": "2026-06-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001388",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001388",
+      "transaction_date": "2026-06-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001402",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001402",
+      "transaction_date": "2026-06-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001427",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001427",
+      "transaction_date": "2026-06-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001729",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001729",
+      "transaction_date": "2026-06-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001992",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001992",
+      "transaction_date": "2026-06-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001832",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001832",
+      "transaction_date": "2026-06-01",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001904",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001904",
+      "transaction_date": "2026-06-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001926",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001926",
+      "transaction_date": "2026-06-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002039",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002039",
+      "transaction_date": "2026-06-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002076",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002076",
+      "transaction_date": "2026-06-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002105",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002105",
+      "transaction_date": "2026-06-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002126",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002126",
+      "transaction_date": "2026-06-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000421",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000421",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000737",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000737",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000751",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000751",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001163",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001163",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001233",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001233",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001676",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001676",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000942",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000942",
+      "transaction_date": "2026-06-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001348",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001348",
+      "transaction_date": "2026-06-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001352",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001352",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001505",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001505",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001571",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001571",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001579",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001579",
+      "transaction_date": "2026-06-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001679",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001679",
+      "transaction_date": "2026-06-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000045",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000045",
+      "transaction_date": "2026-06-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000094",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000094",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000158",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000158",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000162",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000162",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000218",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000218",
+      "transaction_date": "2026-06-03",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000245",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000245",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000354",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000354",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001224",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001224",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001266",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001266",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001947",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001947",
+      "transaction_date": "2026-06-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002137",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002137",
+      "transaction_date": "2026-06-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002126",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002126",
+      "transaction_date": "2026-06-05",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000094",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000094",
+      "transaction_date": "2026-06-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001352",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001352",
+      "transaction_date": "2026-06-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001505",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001505",
+      "transaction_date": "2026-06-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000045",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000045",
+      "transaction_date": "2026-06-08",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001813",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001813",
+      "transaction_date": "2026-07-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001831",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001831",
+      "transaction_date": "2026-07-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001884",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001884",
+      "transaction_date": "2026-07-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001901",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001901",
+      "transaction_date": "2026-07-01",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002104",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002104",
+      "transaction_date": "2026-07-01",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000010",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000010",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000037",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000037",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000038",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000038",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000077",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000077",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000312",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000312",
+      "transaction_date": "2026-07-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000344",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000344",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000723",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000723",
+      "transaction_date": "2026-07-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000790",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000790",
+      "transaction_date": "2026-07-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001273",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001273",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001985",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001985",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000424",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000424",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000546",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000546",
+      "transaction_date": "2026-07-02",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000567",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000567",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000579",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000579",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000592",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000592",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000683",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000683",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000744",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000744",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001045",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001045",
+      "transaction_date": "2026-07-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000935",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000935",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000998",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000998",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001002",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001002",
+      "transaction_date": "2026-07-02",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001532",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001532",
+      "transaction_date": "2026-07-02",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001404",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001404",
+      "transaction_date": "2026-07-03",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001408",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001408",
+      "transaction_date": "2026-07-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001613",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001613",
+      "transaction_date": "2026-07-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002003",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002003",
+      "transaction_date": "2026-07-03",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000579",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000579",
+      "transaction_date": "2026-07-05",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000683",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000683",
+      "transaction_date": "2026-07-05",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000312",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000312",
+      "transaction_date": "2026-07-06",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-001532",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001532",
+      "transaction_date": "2026-07-06",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-002104",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002104",
+      "transaction_date": "2026-07-06",
+      "amount": 468.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-000935",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000935",
+      "transaction_date": "2026-07-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001002",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001002",
+      "transaction_date": "2026-07-07",
+      "amount": 676.0
+    },
+    {
+      "customer_reference_id": "BH-MEM-002003",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH002003",
+      "transaction_date": "2026-07-07",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-001408",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH001408",
+      "transaction_date": "2026-07-08",
+      "amount": 291.2
+    },
+    {
+      "customer_reference_id": "BH-MEM-000009",
+      "type": "failed_transaction",
+      "reference_id": "SEPA-DD-BH000009",
+      "transaction_date": "2026-07-22",
+      "amount": 280.0
+    }
+  ]
+}

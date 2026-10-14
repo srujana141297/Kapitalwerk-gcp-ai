@@ -1,0 +1,58 @@
+{
+  "customer_id": "glucometer-vendor",
+  "run_date": "2026-09-28",
+  "kind": "monday_upcoming",
+  "email_count": 1,
+  "record": {
+    "customer_id": "glucometer-vendor",
+    "owner_name": "Claire",
+    "to_address_masked": "a*******e@neversaydie.co.in",
+    "counterparty_count": 24,
+    "total_amount": 276917.14,
+    "breakdown_top": [
+      {
+        "name": "Charite - Universitaetsmedizin Berlin",
+        "amount": 22067.43
+      },
+      {
+        "name": "Helios Klinikum Berlin-Buch",
+        "amount": 19921.01
+      },
+      {
+        "name": "Asklepios Klinik Hamburg",
+        "amount": 19541.41
+      },
+      {
+        "name": "Vivantes Klinikum Berlin",
+        "amount": 19244.84
+      },
+      {
+        "name": "Diakonie Klinikum Stuttgart",
+        "amount": 18590.91
+      },
+      {
+        "name": "Universitaetsklinikum Essen",
+        "amount": 16153.47
+      },
+      {
+        "name": "Klinikum Augsburg",
+        "amount": 14481.49
+      },
+      {
+        "name": "Universitaetsklinikum Frankfurt",
+        "amount": 13120.89
+      },
+      {
+        "name": "Klinikum Mannheim",
+        "amount": 13118.94
+      },
+      {
+        "name": "Universitaetsklinikum Dresden",
+        "amount": 11988.4
+      }
+    ],
+    "trace": "trc-rep-glucometer-vendor-weekly-upcoming-2026-09-28",
+    "status": "sent",
+    "provider_response": null
+  }
+}

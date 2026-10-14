@@ -1,0 +1,129 @@
+{
+  "customer_id": "gym-chain",
+  "run_date": "2026-09-28",
+  "postal_code_count": 12,
+  "llm_available": true,
+  "pii_blocked": false,
+  "heatmap": [
+    {
+      "postal_code": "40213",
+      "city": "Duesseldorf",
+      "lat": 51.2277,
+      "lon": 6.7735,
+      "transaction_count": 1020,
+      "total_value": 49626.3,
+      "label": "opportunity",
+      "narrative": "This area is a key hub for business activity, worth exploring for deeper relationships."
+    },
+    {
+      "postal_code": "44135",
+      "city": "Dortmund",
+      "lat": 51.5136,
+      "lon": 7.4653,
+      "transaction_count": 1075,
+      "total_value": 49445.75,
+      "label": "stable",
+      "narrative": "Steady, local business transactions indicate a solid foundation for existing relationships."
+    },
+    {
+      "postal_code": "50667",
+      "city": "Cologne",
+      "lat": 50.9375,
+      "lon": 6.9603,
+      "transaction_count": 1033,
+      "total_value": 48941.17,
+      "label": "stable",
+      "narrative": "A consistent flow of transactions suggests no immediate action is needed."
+    },
+    {
+      "postal_code": "01067",
+      "city": "Dresden",
+      "lat": 51.0504,
+      "lon": 13.7373,
+      "transaction_count": 1029,
+      "total_value": 48539.71,
+      "label": "watch",
+      "narrative": "Monitoring low activity levels in this area may help identify opportunities for growth."
+    },
+    {
+      "postal_code": "20095",
+      "city": "Hamburg",
+      "lat": 53.5511,
+      "lon": 9.9937,
+      "transaction_count": 1006,
+      "total_value": 47303.44,
+      "label": "stable",
+      "narrative": "Long-standing relationships in Hamburg's commercial heart require no immediate attention."
+    },
+    {
+      "postal_code": "10115",
+      "city": "Berlin",
+      "lat": 52.52,
+      "lon": 13.405,
+      "transaction_count": 1056,
+      "total_value": 47145.94,
+      "label": "stable",
+      "narrative": "Berlin's central location and moderate transaction volume justify ongoing support."
+    },
+    {
+      "postal_code": "45127",
+      "city": "Essen",
+      "lat": 51.4556,
+      "lon": 7.0116,
+      "transaction_count": 944,
+      "total_value": 46390.56,
+      "label": "watch",
+      "narrative": "Essen's lower transaction volume warrants close monitoring for potential changes."
+    },
+    {
+      "postal_code": "70173",
+      "city": "Stuttgart",
+      "lat": 48.7758,
+      "lon": 9.1829,
+      "transaction_count": 1007,
+      "total_value": 45870.93,
+      "label": "opportunity",
+      "narrative": "Stuttgart's significant transactions justify exploring new business opportunities."
+    },
+    {
+      "postal_code": "80331",
+      "city": "Munich",
+      "lat": 48.1351,
+      "lon": 11.582,
+      "transaction_count": 998,
+      "total_value": 44788.52,
+      "label": "stable",
+      "narrative": "Munich's established business presence justifies maintaining existing relationships."
+    },
+    {
+      "postal_code": "28195",
+      "city": "Bremen",
+      "lat": 53.0793,
+      "lon": 8.8017,
+      "transaction_count": 976,
+      "total_value": 43696.24,
+      "label": "watch",
+      "narrative": "Bremen's lower transaction volume requires monitoring for potential adjustments."
+    },
+    {
+      "postal_code": "60311",
+      "city": "Frankfurt",
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "transaction_count": 976,
+      "total_value": 41081.24,
+      "label": "opportunity",
+      "narrative": "Frankfurt's significant transactions create opportunities for growth and expansion."
+    },
+    {
+      "postal_code": "04109",
+      "city": "Leipzig",
+      "lat": 51.3397,
+      "lon": 12.3731,
+      "transaction_count": 978,
+      "total_value": 40885.72,
+      "label": "watch",
+      "narrative": "Leipzig's moderate activity warrants careful observation for any changes."
+    }
+  ]
+}

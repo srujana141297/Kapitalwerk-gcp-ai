@@ -1,0 +1,56 @@
+{
+  "customer_id": "gym-chain",
+  "run_date": "2026-10-04",
+  "run_risk_tier": "high",
+  "count": 4,
+  "top_transactions": [
+    {
+      "case_id": "AML-1001-1a09",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "MEM-001001",
+      "counterparty": "MEM-001001",
+      "amount": 51.24,
+      "risk_score": 4.07,
+      "risk_tier": "high",
+      "reason": "Rolling 3-month average drifted 40.7% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1002-a8eb",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "SEPA-DD-MND001002",
+      "customer_reference_id": "MEM-001002",
+      "counterparty": "MEM-001002",
+      "amount": 199.99,
+      "risk_score": 4.0,
+      "risk_tier": "high",
+      "reason": "Transaction was 4.0x this counterparty's normal 3-month average (EUR 50.05).",
+      "suggested_action": "Escalate to AML review; confirm source of funds before release."
+    },
+    {
+      "case_id": "AML-1002-b0b2",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "MEM-001002",
+      "counterparty": "MEM-001002",
+      "amount": 50.05,
+      "risk_score": 3.85,
+      "risk_tier": "medium",
+      "reason": "Rolling 3-month average drifted 38.5% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1001-4a0f",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "SEPA-DD-MND001001",
+      "customer_reference_id": "MEM-001001",
+      "counterparty": "MEM-001001",
+      "amount": 149.99,
+      "risk_score": 2.93,
+      "risk_tier": "high",
+      "reason": "Transaction was 2.93x this counterparty's normal 3-month average (EUR 51.24).",
+      "suggested_action": "Escalate to AML review; confirm source of funds before release."
+    }
+  ]
+}

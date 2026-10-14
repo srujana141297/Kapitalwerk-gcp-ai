@@ -1,0 +1,56 @@
+{
+  "customer_id": "boho-house",
+  "run_date": "2026-10-04",
+  "run_risk_tier": "high",
+  "count": 4,
+  "top_transactions": [
+    {
+      "case_id": "AML-0001-7ea2",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "BH-MEM-000001",
+      "counterparty": "BH-MEM-000001",
+      "amount": 736.67,
+      "risk_score": 8.69,
+      "risk_tier": "high",
+      "reason": "Rolling 3-month average drifted 86.9% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-0002-d44f",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "SEPA-DD-BH000002",
+      "customer_reference_id": "BH-MEM-000002",
+      "counterparty": "BH-MEM-000002",
+      "amount": 2500.0,
+      "risk_score": 3.61,
+      "risk_tier": "high",
+      "reason": "Transaction was 3.61x this counterparty's normal 3-month average (EUR 691.78).",
+      "suggested_action": "Escalate to AML review; confirm source of funds before release."
+    },
+    {
+      "case_id": "AML-0002-179e",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "BH-MEM-000002",
+      "counterparty": "BH-MEM-000002",
+      "amount": 691.78,
+      "risk_score": 3.2,
+      "risk_tier": "medium",
+      "reason": "Rolling 3-month average drifted 32.0% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-0001-7d4a",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "SEPA-DD-BH000001",
+      "customer_reference_id": "BH-MEM-000001",
+      "counterparty": "BH-MEM-000001",
+      "amount": 1650.0,
+      "risk_score": 2.24,
+      "risk_tier": "medium",
+      "reason": "Transaction was 2.24x this counterparty's normal 3-month average (EUR 736.67).",
+      "suggested_action": "Analyst review of the transaction against counterparty history."
+    }
+  ]
+}

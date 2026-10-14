@@ -1,0 +1,68 @@
+{
+  "customer_id": "glucometer-vendor",
+  "run_date": "2026-09-28",
+  "run_risk_tier": "high",
+  "count": 5,
+  "top_transactions": [
+    {
+      "case_id": "AML-1006-47f9",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "E2E-DE-60299",
+      "customer_reference_id": "CUST-HOSP-1006",
+      "counterparty": "Asklepios Klinik Hamburg",
+      "amount": 78000.0,
+      "risk_score": 3.99,
+      "risk_tier": "high",
+      "reason": "Transaction was 3.99x this counterparty's normal 3-month average (EUR 19541.41).",
+      "suggested_action": "Escalate to AML review; confirm source of funds before release."
+    },
+    {
+      "case_id": "AML-1001-3125",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "CUST-HOSP-1001",
+      "counterparty": "Charite - Universitaetsmedizin Berlin",
+      "amount": 22067.43,
+      "risk_score": 3.56,
+      "risk_tier": "medium",
+      "reason": "Rolling 3-month average drifted 35.6% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1015-3485",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "CUST-HOSP-1015",
+      "counterparty": "Diakonie Klinikum Stuttgart",
+      "amount": 18590.91,
+      "risk_score": 3.11,
+      "risk_tier": "medium",
+      "reason": "Rolling 3-month average drifted 31.1% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1006-6801",
+      "flag_type": "deviation",
+      "transaction_reference": null,
+      "customer_reference_id": "CUST-HOSP-1006",
+      "counterparty": "Asklepios Klinik Hamburg",
+      "amount": 19541.41,
+      "risk_score": 2.6,
+      "risk_tier": "medium",
+      "reason": "Rolling 3-month average drifted 26.0% (increase) vs the 12-month baseline.",
+      "suggested_action": "Monitor counterparty trend; review for churn vs. AML concern."
+    },
+    {
+      "case_id": "AML-1003-deb9",
+      "flag_type": "high_value_transaction",
+      "transaction_reference": "E2E-DE-40170",
+      "customer_reference_id": "CUST-HOSP-1003",
+      "counterparty": "Klinikum rechts der Isar Muenchen",
+      "amount": 20014.99,
+      "risk_score": 2.43,
+      "risk_tier": "medium",
+      "reason": "Transaction was 2.43x this counterparty's normal 3-month average (EUR 8242.87).",
+      "suggested_action": "Analyst review of the transaction against counterparty history."
+    }
+  ]
+}

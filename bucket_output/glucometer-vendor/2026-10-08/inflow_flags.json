@@ -1,0 +1,259 @@
+{
+  "customer_id": "glucometer-vendor",
+  "run_date": "2026-10-08",
+  "as_of": "2026-10-08",
+  "missing_payments": [],
+  "high_value_transactions": [
+    {
+      "customer_reference_id": "CUST-HOSP-1004",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40171",
+      "transaction_date": "2024-11-26",
+      "amount": 19655.39,
+      "baseline_3m_avg": 9537.15,
+      "multiplier": 2.06
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1003",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40170",
+      "transaction_date": "2024-11-28",
+      "amount": 20014.99,
+      "baseline_3m_avg": 8285.55,
+      "multiplier": 2.42
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1011",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40272",
+      "transaction_date": "2025-02-11",
+      "amount": 15114.35,
+      "baseline_3m_avg": 7806.56,
+      "multiplier": 1.94
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1007",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40565",
+      "transaction_date": "2025-08-04",
+      "amount": 36156.47,
+      "baseline_3m_avg": 17226.41,
+      "multiplier": 2.1
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1003",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40561",
+      "transaction_date": "2025-08-05",
+      "amount": 16647.31,
+      "baseline_3m_avg": 8285.55,
+      "multiplier": 2.01
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1007",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40566",
+      "transaction_date": "2025-08-08",
+      "amount": 37291.02,
+      "baseline_3m_avg": 17226.41,
+      "multiplier": 2.16
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1011",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40589",
+      "transaction_date": "2025-08-15",
+      "amount": 16016.1,
+      "baseline_3m_avg": 7806.56,
+      "multiplier": 2.05
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1007",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40601",
+      "transaction_date": "2025-08-21",
+      "amount": 33403.95,
+      "baseline_3m_avg": 17226.41,
+      "multiplier": 1.94
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1012",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-40606",
+      "transaction_date": "2025-08-22",
+      "amount": 21749.62,
+      "baseline_3m_avg": 11080.41,
+      "multiplier": 1.96
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1007",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41164",
+      "transaction_date": "2026-03-16",
+      "amount": 37794.85,
+      "baseline_3m_avg": 17226.41,
+      "multiplier": 2.19
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1014",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41170",
+      "transaction_date": "2026-03-16",
+      "amount": 16830.33,
+      "baseline_3m_avg": 6924.54,
+      "multiplier": 2.43
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1016",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41254",
+      "transaction_date": "2026-04-15",
+      "amount": 28207.2,
+      "baseline_3m_avg": 12570.61,
+      "multiplier": 2.24
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1019",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41278",
+      "transaction_date": "2026-04-21",
+      "amount": 34103.14,
+      "baseline_3m_avg": 15918.74,
+      "multiplier": 2.14
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1010",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41269",
+      "transaction_date": "2026-04-22",
+      "amount": 10704.86,
+      "baseline_3m_avg": 5750.53,
+      "multiplier": 1.86
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1002",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41260",
+      "transaction_date": "2026-04-23",
+      "amount": 13945.27,
+      "baseline_3m_avg": 6953.35,
+      "multiplier": 2.01
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1020",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41279",
+      "transaction_date": "2026-04-23",
+      "amount": 10646.87,
+      "baseline_3m_avg": 5194.01,
+      "multiplier": 2.05
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1007",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41266",
+      "transaction_date": "2026-04-24",
+      "amount": 43858.55,
+      "baseline_3m_avg": 17226.41,
+      "multiplier": 2.55
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1005",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41367",
+      "transaction_date": "2026-05-26",
+      "amount": 34375.62,
+      "baseline_3m_avg": 18387.25,
+      "multiplier": 1.87
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1024",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41382",
+      "transaction_date": "2026-05-26",
+      "amount": 15171.92,
+      "baseline_3m_avg": 7891.88,
+      "multiplier": 1.92
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1004",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41366",
+      "transaction_date": "2026-05-28",
+      "amount": 18810.37,
+      "baseline_3m_avg": 9537.15,
+      "multiplier": 1.97
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1009",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41370",
+      "transaction_date": "2026-05-29",
+      "amount": 25403.46,
+      "baseline_3m_avg": 12921.36,
+      "multiplier": 1.97
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1007",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41408",
+      "transaction_date": "2026-06-11",
+      "amount": 39146.73,
+      "baseline_3m_avg": 17226.41,
+      "multiplier": 2.27
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1008",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-41409",
+      "transaction_date": "2026-06-11",
+      "amount": 14526.61,
+      "baseline_3m_avg": 6821.74,
+      "multiplier": 2.13
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1006",
+      "type": "high_value_transaction",
+      "reference_id": "E2E-DE-60299",
+      "transaction_date": "2026-07-23",
+      "amount": 78000.0,
+      "baseline_3m_avg": 25769.46,
+      "multiplier": 3.03
+    }
+  ],
+  "deviations": [
+    {
+      "customer_reference_id": "CUST-HOSP-1001",
+      "type": "deviation",
+      "rolling_3m_avg": 25392.3,
+      "rolling_12m_avg": 17108.85,
+      "drift_pct": 48.4,
+      "direction": "increase"
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1006",
+      "type": "deviation",
+      "rolling_3m_avg": 25769.46,
+      "rolling_12m_avg": 17067.25,
+      "drift_pct": 51.0,
+      "direction": "increase"
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1002",
+      "type": "deviation",
+      "rolling_3m_avg": 6953.35,
+      "rolling_12m_avg": 5445.62,
+      "drift_pct": 27.7,
+      "direction": "increase"
+    },
+    {
+      "customer_reference_id": "CUST-HOSP-1015",
+      "type": "deviation",
+      "rolling_3m_avg": 16995.58,
+      "rolling_12m_avg": 13588.93,
+      "drift_pct": 25.1,
+      "direction": "increase"
+    }
+  ],
+  "explicit_failures": []
+}

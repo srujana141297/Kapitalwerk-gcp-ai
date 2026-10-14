@@ -1,0 +1,59 @@
+{
+  "customer_id": "boho-house",
+  "run_date": "2026-09-28",
+  "postal_code_count": 5,
+  "llm_available": true,
+  "pii_blocked": false,
+  "heatmap": [
+    {
+      "postal_code": "10115",
+      "city": "Berlin",
+      "lat": 52.52,
+      "lon": 13.405,
+      "transaction_count": 12522,
+      "total_value": 4912506.8,
+      "label": "opportunity",
+      "narrative": "This high-value customer in Berlin presents a prime opportunity to deepen the relationship and explore new business opportunities."
+    },
+    {
+      "postal_code": "80331",
+      "city": "Munich",
+      "lat": 48.1351,
+      "lon": 11.582,
+      "transaction_count": 9442,
+      "total_value": 3653270.8,
+      "label": "opportunity",
+      "narrative": "The significant transaction volume in Munich suggests a strong foundation for future growth and a chance to build on this momentum."
+    },
+    {
+      "postal_code": "20095",
+      "city": "Hamburg",
+      "lat": 53.5511,
+      "lon": 9.9937,
+      "transaction_count": 6139,
+      "total_value": 2509940.0,
+      "label": "stable",
+      "narrative": "With steady activity in Hamburg, no immediate action is needed, but monitoring the account's stability is still essential."
+    },
+    {
+      "postal_code": "50667",
+      "city": "Cologne",
+      "lat": 50.9375,
+      "lon": 6.9603,
+      "transaction_count": 3211,
+      "total_value": 1283333.6,
+      "label": "watch",
+      "narrative": "The relatively low transaction count in Cologne warrants close monitoring to ensure the account remains healthy and identify potential issues early."
+    },
+    {
+      "postal_code": "60311",
+      "city": "Frankfurt",
+      "lat": 50.1109,
+      "lon": 8.6821,
+      "transaction_count": 1606,
+      "total_value": 679588.0,
+      "label": "stable",
+      "narrative": "Frankfurt's steady, though smaller, transaction volume indicates a stable customer with no pressing need for intervention."
+    }
+  ]
+}
